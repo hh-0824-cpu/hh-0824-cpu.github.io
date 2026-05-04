@@ -25,4 +25,4 @@ for (const ch of text) {
 }
 
 const ratio = (hangul / total) * 100
-console.log(`한글 글자 비율: ${ration.toFixed(1)}`);
+console.log(`한글 글자 비율: ${ratio.toFixed(1)}`);
