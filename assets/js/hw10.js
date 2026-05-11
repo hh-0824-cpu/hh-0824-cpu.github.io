@@ -20,8 +20,6 @@ for (const year of years) {
     console.log(`${year}년: ${classifyEra(year)}`);
 }
 
-}
-
 // Q2
 const works = ["날개", "오감도", "지주회시", "중성기", "관례"];
 
