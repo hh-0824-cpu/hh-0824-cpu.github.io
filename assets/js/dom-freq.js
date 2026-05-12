@@ -8,7 +8,7 @@ function countChar(text, target) {
 }
 
 const text = document.querySelector("#text-body").textContent;
-const targets = ["이"]
+const targets = ["이", "의", "날", "개", "소"]
 
 const counts = targets.map(t => countChar(text, t));
 
