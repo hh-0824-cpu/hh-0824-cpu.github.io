@@ -2,7 +2,6 @@
 // 2022-13122 조하현
 
 // --- 함수 정의들 ---
-
 function extractBody(text) {
     const startMark = "*** START OF THE PROJECT GUTENBERG EBOOK";
     const endMark = "*** END OF THE PROJECT GUTENBERG EBOOK";
@@ -80,7 +79,6 @@ function drawChart(selector, top, color) {
 }
 
 // --- 메인: 네 파일을 동시에 fetch ---
-
 Promise.all([
     fetch("/data/frankenstein.txt").then(r => r.text()),
     fetch("/data/dracula.txt").then(r => r.text()),
