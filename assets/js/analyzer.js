@@ -26,7 +26,7 @@ button.addEventListener("click", () => {
         resultChart = drawChart(
             "#result-chart",
             top,
-            "rgba(40, 167, 69, 0.6)"
+            "rgba(40, 159, 167, 0.6)"
         );
     });
 });
